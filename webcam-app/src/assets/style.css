@@ -1,0 +1,30 @@
+/*@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';*/
+/*@import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";*/
+
+.image-gallery-fullscreen-button:focus, button.close:focus, .image-gallery-left-nav:focus, .image-gallery-right-nav:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+.image-gallery-content.fullscreen, .image-gallery, .image-gallery-slide-wrapper, .image-gallery-slides, .image-gallery-slide, .image-gallery-image, .image-gallery-swipe {
+    height: 100%;
+    width: 100%;
+    min-height: 100px;
+}
+
+.image-gallery-content.fullscreen .image-gallery-slide .image-gallery-image{
+    display: flex;
+}
+.image-gallery-content.fullscreen .image-gallery-slide img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.rangeslider-ctl {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    bottom: 0;
+    margin: 5px 0px;
+}

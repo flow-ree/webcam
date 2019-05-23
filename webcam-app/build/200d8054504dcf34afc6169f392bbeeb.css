@@ -1,0 +1,7 @@
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery-fullscreen-button:focus, button.close:focus {
+    outline: none;
+    background-color: transparent;
+}

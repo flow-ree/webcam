@@ -1,0 +1,7 @@
+*.DS_Store
+screenshot-scheduler/tests
+webcam-app/production
+webcam-app/node_modules
+webcam-app/flow-ree
+webcam-app/.idea
+webcam-app/deploy.sh

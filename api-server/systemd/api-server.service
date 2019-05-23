@@ -1,0 +1,11 @@
+[Unit]
+Description=Webcam API Snapshots
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/path/to/api_server.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+[Unit]
+Description=Webcam Screenshot Scheduler
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/path/to/screenshot_scheduler.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
